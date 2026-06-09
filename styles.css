@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth; 
 }
 
-header{
-    text-align: center;
-    align-items: center;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #121212; 
@@ -37,6 +32,7 @@ body {
 .barra-lateral h2 {
   margin-top: 0; 
   font-size: 1.5rem;
+  color: #ffffff;
 }
 
 .barra-lateral ul {
@@ -63,56 +59,49 @@ body {
 
 .contenido-texto {
   flex: 1;
-  max-width: 850px;       
+  max-width: 1200px;       
   padding: 40px 50px 40px 15px; 
   box-sizing: border-box;
 }
 
-.contenedor-logo {
+#blue-crowbar {
   width: 100%;
-  margin-bottom: 20px;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;   
+  margin: 20px 0;    
 }
 
-.logo-guia {
-  max-width: 300px; 
-  width: 100%;      
-  height: auto;     
+#casa {
+  float: right;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: block;   
+  margin: 20px 0;    
+}
+
+.baner img {
+  width: 100%;
+  height: auto;
+  border: #000000;
+  border-radius: 8px;
   display: block;
 }
 
 section {
-  padding: 40px 0;
-  border-bottom: 1px solid #2d2d2d; 
+  padding: 20px 0;
 }
 
 h1, h2, h3 {
   color: #ffffff;
+  margin: 0;
 }
 
-.barra-lateral a {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  color: #b0b0b0; 
-  font-size: 1.05rem;
-  transition: color 0.2s ease;
-}
-
-.barra-lateral a:hover {
-  color: #d94d3f; 
-}
-
-.contenido-texto {
-  flex: 1;
-  max-width: 850px;       
-  padding: 40px 50px 40px 15px; 
-  box-sizing: border-box;
-}
-
-section {
-  padding: 40px 0;
-  border-bottom: 1px solid #2d2d2d; 
-}
-
-h1, h2, h3 {
-  color: #ffffff;
+p {
+  line-height: 1.6;
+  color: #cdcdcd;
+  margin-bottom: 20px;
 }
